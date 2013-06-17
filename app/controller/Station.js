@@ -1,15 +1,17 @@
 Ext.define('Panda.controller.Station', {
     extend: 'Ext.app.Controller',
-    views: ['StationsList'], // creates getter named 'getStationsListView' -> returns reference to StationsList class
-    models: ['Station'],     // creates getter named 'getStationModel'     -> returns reference to Station model class
-    controllers: ['Song'],   // creates getter named 'getSongController'   -> returns the Song controller instance
-    stores: ['Stations'],    // creates getter named 'getStationsStore'    -> returns the Stations store instance
     refs: [{
         // A component query
-        selector: 'stationsList',
-        ref: 'stationsList'
+        ref: 'stationsList',
+        selector: 'stationslist',
     }],
+    stores: ['Stations', 'SearchResults'],    // creates getter named 'getStationsStore'    -> returns the Stations store instance
+//    views: ['StationsList'], // creates getter named 'getStationsListView' -> returns reference to StationsList class
+//    models: ['Station'],     // creates getter named 'getStationModel'     -> returns reference to Station model class
+//    controllers: ['Song'],   // creates getter named 'getSongController'   -> returns the Song controller instance
+
     init: function() {
+        // Start listening for events on views
         // Listen for the select event on the NewStation combobox
         this.control({
             'stationslist': {
@@ -46,6 +48,7 @@ Ext.define('Panda.controller.Station', {
         stationsList.getSelectionModel().select(0);
     },
     onStationSelect: function(selModel, selection) {
+        // Fire an application wide event
         this.application.fireEvent('stationstart', selection[0]);
-    },
+    }
 });

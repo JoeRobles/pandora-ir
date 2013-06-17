@@ -1,7 +1,6 @@
 Ext.define('Panda.view.RecentlyPlayedScroller', {
     extend: 'Ext.view.View',
     alias: 'widget.recentlyplayedscroller',
-    itemTpl: '<div></div>',
+    itemTpl: '<div>{name}</div>',
     store: 'RecentSongs',
-    //... more configuration ...
 });

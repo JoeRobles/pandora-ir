@@ -1,6 +1,9 @@
 Ext.define('Panda.view.NewStation', {
+    emptyText: 'Search station',
     extend: 'Ext.form.field.ComboBox',
     alias: 'widget.newstation',
     store: 'SearchResults',
-    // ... more configuration ...
+    queryMode: 'local',
+    displayField: 'name',
+    valueField: 'id',
 });

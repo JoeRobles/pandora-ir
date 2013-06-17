@@ -1,7 +1,7 @@
 Ext.application({
-    name: 'Panda',    
+    name: 'Panda',
     autoCreateViewport: true,
-    models: ['Station', 'Song'],    
+    models: ['Station', 'Song'],
     stores: ['Stations', 'RecentSongs', 'SearchResults'],
     controllers: ['Station', 'Song'],
     launch: function() {

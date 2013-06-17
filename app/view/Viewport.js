@@ -5,7 +5,7 @@ Ext.define('Panda.view.Viewport', {
         'Panda.view.SongControls',
         'Panda.view.StationsList',
         'Panda.view.RecentlyPlayedScroller',
-        'Panda.view.SongInfo'
+        'Panda.view.SongInfo',
     ],
     layout: 'fit',
  
@@ -35,6 +35,7 @@ Ext.define('Panda.view.Viewport', {
             items: [{
                 width: 250,
                 xtype: 'panel',
+                id: 'west-region',
                 layout: {
                     type: 'vbox',
                     align: 'stretch'
