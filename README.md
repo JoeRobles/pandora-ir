@@ -1,4 +1,4 @@
-pandora-ir
+Pandora IR
 ==========
 
 Pandora Internet Radio
