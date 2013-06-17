@@ -1,11 +1,11 @@
-Ext.define('Panda.view.Viewport', {
+Ext.define('Pandora.view.Viewport', {
     extend: 'Ext.container.Viewport',
     requires: [
-        'Panda.view.NewStation',
-        'Panda.view.SongControls',
-        'Panda.view.StationsList',
-        'Panda.view.RecentlyPlayedScroller',
-        'Panda.view.SongInfo',
+        'Pandora.view.NewStation',
+        'Pandora.view.SongControls',
+        'Pandora.view.StationsList',
+        'Pandora.view.RecentlyPlayedScroller',
+        'Pandora.view.SongInfo',
     ],
     layout: 'fit',
  
@@ -25,7 +25,7 @@ Ext.define('Panda.view.Viewport', {
                     flex: 1
                 }, {
                     xtype: 'component',
-                    html: 'Panda<br>Internet Radio'
+                    html: 'Pandora<br>Internet Radio'
                 }]
             }],
             layout: {

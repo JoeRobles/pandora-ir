@@ -1,5 +1,5 @@
 Ext.application({
-    name: 'Panda',
+    name: 'Pandora',
     autoCreateViewport: true,
     models: ['Station', 'Song'],
     stores: ['Stations', 'RecentSongs', 'SearchResults'],

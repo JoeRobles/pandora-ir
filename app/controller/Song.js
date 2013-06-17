@@ -1,4 +1,4 @@
-Ext.define('Panda.controller.Song', {
+Ext.define('Pandora.controller.Song', {
     extend: 'Ext.app.Controller',
     refs: [{
         ref: 'songInfo',

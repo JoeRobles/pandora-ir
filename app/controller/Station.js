@@ -1,4 +1,4 @@
-Ext.define('Panda.controller.Station', {
+Ext.define('Pandora.controller.Station', {
     extend: 'Ext.app.Controller',
     refs: [{
         // A component query

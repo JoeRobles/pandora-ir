@@ -1,7 +1,7 @@
-Ext.define('Panda.store.SearchResults', {
+Ext.define('Pandora.store.SearchResults', {
     extend: 'Ext.data.Store',
-    requires: 'Panda.model.Station',
-    model: 'Panda.model.Station',
+    requires: 'Pandora.model.Station',
+    model: 'Pandora.model.Station',
 
     autoLoad: true,
     

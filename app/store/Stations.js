@@ -1,5 +1,5 @@
-Ext.define('Panda.store.Stations', {
+Ext.define('Pandora.store.Stations', {
     extend: 'Ext.data.Store',
-    requires: 'Panda.model.Station',
-    model: 'Panda.model.Station'
+    requires: 'Pandora.model.Station',
+    model: 'Pandora.model.Station'
 });

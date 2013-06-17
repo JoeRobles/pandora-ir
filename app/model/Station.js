@@ -1,4 +1,4 @@
-Ext.define('Panda.model.Station', {
+Ext.define('Pandora.model.Station', {
     extend: 'Ext.data.Model',
     fields: ['id', 'name'],
 

@@ -1,4 +1,4 @@
-Ext.define('Panda.view.SongControls', {
+Ext.define('Pandora.view.SongControls', {
     extend: 'Ext.Container',
     alias: 'widget.songcontrols',
     height: 70,

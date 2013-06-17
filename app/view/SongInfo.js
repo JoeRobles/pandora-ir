@@ -1,4 +1,4 @@
-Ext.define('Panda.view.SongInfo', {
+Ext.define('Pandora.view.SongInfo', {
     extend: 'Ext.panel.Panel',
     alias: 'widget.songinfo',    
     tpl: '<h1>About {artist}</h1><p>{description}</p>',

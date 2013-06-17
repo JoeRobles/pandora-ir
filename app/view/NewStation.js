@@ -1,4 +1,4 @@
-Ext.define('Panda.view.NewStation', {
+Ext.define('Pandora.view.NewStation', {
     emptyText: 'Search station',
     extend: 'Ext.form.field.ComboBox',
     alias: 'widget.newstation',

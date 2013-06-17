@@ -1,4 +1,4 @@
-Ext.define('Panda.view.StationsList', {
+Ext.define('Pandora.view.StationsList', {
     extend: 'Ext.grid.Panel',
     alias: 'widget.stationslist',
     store: 'Stations',
